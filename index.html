@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Inicio pag</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cupcakes.html">
+    <link rel="stylesheet" href="donas.html">
+    <link rel="stylesheet" href="malteadas.html">
+    <link rel="stylesheet" href="pasteles.html">
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="carrito.html">
+    
+</head>
+<body>
+  <header>
+    <div class="container-hero">
+      <div class="container hero">
+          <div class="costomer-support">
+            <i class="fa-solid fa-headset"></i>
+            <div class="conten-costum support">
+              <span class="text">Soporte al cliente</span>
+              <span class="number">344-104-27-95</span>
+            </div>
+          </div>
+          <div class="conteiner-logo">
+             <i class="">
+             <img src="imagenes/LOG_1.png" margin: 10; padding: 5; alt="">
+            <h1 class="logo"><a href="login.html"></a></h1>  
+          </div>
+          <div class="container-user">
+            <i class="fa-solid fa-user"></i>
+             <a href="carrito.html"><i class="fa-solid fa-basket-shopping"></i></a> 
+            <div class="content-shooping-cart">
+              <span class="text">Carrito de compras</span>
+              <span class="number">(0)</span>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container-navbar">
+      <nav class="navbar container">
+        <i class="fi fi-br-menu-burger"></i>
+        <img src="imagenes/menu.png" alt="">
+        <ul class="menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="cupcakes.html">Cupcakes</a></li>
+          <li><a href="pasteles.html">Pasteles</a></li>
+          <li><a href="malteadas.html">Malteadas</a></li>
+          <li><a href="donas.html">Donas</a></li>
+          <li><a href="https://www.marialunarillos.com/blog/">Blog</a></li>      
+        </ul>
+        <form class="search-form">
+          <input id="search" placeholder="Buscar...">
+          <button class="btn-search">                       
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <div>
+            <ul id="results" class="results"></ul>
+          </div>
+        </form>
+      </nav>
+    </div>
+
+      <script>
+        btn.onclick = function(){
+          var buscar = document.getElementById("search").value;
+          if (buscar == 'cupcakes'){
+            <li><a href="pasteles.html">Cupcakes</a></li>
+          }
+          if (buscar == 'pasteles'){
+            <li><a href="pasteles.html">Pasteles</a></li>
+          }
+          if (buscar == 'malteadas'){
+            <li><a href="pasteles.html">Malteadas</a></li>
+          }
+          if (buscar == 'donas'){
+            <li><a href="pasteles.html">Donas</a></li>
+          }
+
+        }
+      </script>
+
+</header>
+
+    <section class="banner">
+      <div class="content-banner">
+        <p>Postres Deliciosos</p>
+        <h2>100% recomendado <br> Recien Horneado</h2>
+        <a href="carrito.html">Comprar ahora</a>
+      </div>
+    </section>
+     
+    <main class="main-content">
+      <section class="container container-features">
+        <div class="card-feature">
+          <i class="fa-solid fa-plane-up"></i>
+          <div class="feature-content">
+            <span>Envio gratis </span>
+            <p>En pedido superior de $100  </p>
+          </div>
+        </div>
+        <div class="card-feature">                       
+          <i class="fa-solid fa-wallet"></i>
+          <div class="feature-content">
+            <span>Contrareembolso</span>
+            <p>100% garantia de devolucion de dinero </p>
+          </div>
+        </div>
+        <div class="card-feature">
+          <i class="fa-solid fa-gift"></i>
+          <div class="feature-content">
+            <span>Tarjeta regalo especial</span>
+            <p>Ofrece bonos especiales con regalo </p>
+          </div>
+        </div>
+        <div class="card-feature">
+          <i class="fa-solid fa-headset"></i>
+          <div class="feature-content">
+            <span>Servicio al cliente de 9 am a 9 pm de lunes a domingo</span>
+            <p>Llamanos al 344-104-27-95 </p>
+          </div>
+        </div>
+      </section>
+
+       <section class="container top-categories">
+        <h1 class="heading-1">Mejores Categorias </h1>
+        <div class="container-categories">
+          <div class="card-category category-cupcakes">
+           <p>Cupcakes</p>
+           <span>  <a href="cupcakes.html", style="color: white;">Ver mas</a></span>
+          </div>
+          <div class="card-category category-malteadas">
+            <p>Maltedas</p>
+            <span>  <a href="malteadas.html", style="color: white;">Ver mas</a></span>
+           </div>
+          <div class="card-category category-pasteles">
+            <p>Pasteles</p>
+            <span>  <a href="pasteles.html", style="color: white;">Ver mas</a></span>             <!-- ESTO ES SUN COMENTARIO  -->
+           </div>
+          <div class="card-category category-donas">
+            <p>Donas</p>
+            <span>  <a href="donas.html", style="color: white;">Ver mas</a></span>
+           </div>
+        </div>
+       </section>
+
+       <section class="container top-products">
+        <h1 class="heading-1">Mejores Productos </h1>
+        
+        <div class="container-options">
+          <span class="active"> Destacados</span>
+          <span>Mas recientes</span>
+          <span>Mejores vendidos</span>
+        </div>
+      
+       <div class="container-products">
+        <!---------------------- producto 1 --------------------->
+         <div class="card-product">
+          <div class="container-img">
+            <img src="imagenes/cupcake1.jpeg" alt="Cupcake ">
+            <span class="discount">-13%</span>
+            <div class="button-group">
+              <span>
+                <i class="fa-regular fa-eye"></i>  
+              </span>
+              <span>
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-code-compare"></i>
+              </span>
+            </div>
+          </div>
+          <div class="content-card-product">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h3>Cupcakes </h3>
+            <span class="add-cart">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </span>
+            <p class="price">$25 <span>$29</span></p>
+          </div>
+         </div>
+          <!-------------------- producto 2 --------------------->
+          <div class="card-product">
+            <div class="container-img">
+              <img src="imagenes/mal4.jpeg" alt=" Malteadas ">
+              <span class="discount">-13%</span>
+              <div class="button-group">
+                <span>
+                  <i class="fa-regular fa-eye"></i>  
+                </span>
+                <span>
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-code-compare"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Malteadas </h3>
+              <span class="add-cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </span>
+              <p class="price">$38 <span>$42</span></p>
+            </div>
+           </div>
+         <!---------------------- producto 3 --------------------->
+         <div class="card-product">
+          <div class="container-img">
+            <img src="imagenes/pas2.jpeg" alt="Pasteles ">
+            <span class="discount">-13%</span>
+            <div class="button-group">
+              <span>
+                <i class="fa-regular fa-eye"></i>  
+              </span>
+              <span>
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-code-compare"></i>
+              </span>
+            </div>
+          </div>
+          <div class="content-card-product">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h3>Pasteles </h3>
+            <span class="add-cart">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </span>
+            <p class="price">$330 <span>$350</span></p>
+          </div>
+         </div>
+         <!-----------------------producto 4 -------------------->
+         <div class="card-product">
+          <div class="container-img">
+            <img src="imagenes/don1.jpeg" alt="Donas ">
+            
+            <div class="button-group">
+              <span>
+                <i class="fa-regular fa-eye"></i>  
+              </span>
+              <span>
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-code-compare"></i>
+              </span>
+            </div>
+          </div>
+          <div class="content-card-product">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h3>Donas </h3>
+            <span class="add-cart">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </span>
+            <p class="price"> $18 </p>
+          </div>
+         </div>
+       </div>
+      </section>
+
+    <section class="gallery">
+      <img 
+      src="imagenes/img1.jpeg"
+       alt="Gallery img1" 
+       class="gallery-img-1">
+       <img 
+       src="imagenes/img2.jpg" 
+       alt="gallery-img-2"
+       class="gallery-img-2">
+       <img 
+       src="imagenes/mal1.4.jpg" 
+       alt="gallery-img-3"
+       class="gallery-img-3">
+       <img 
+       src="imagenes/img4.jpeg" 
+       alt="gallery-img-4"
+       class="gallery-img-4">
+       <img 
+       src="imagenes/img5.jpeg" 
+       alt="gallery-img-5"
+       class="gallery-img-5">
+    </section>
+    
+    <section class="container specials">
+      <h1 class="heading-1">Especiales</h1>
+
+      <div class="container-products">
+        <!---------------------- producto 1 --------------------->
+         <div class="card-product">
+          <div class="container-img">
+            <img src="imagenes/cupcake1.jpeg" alt="Cupcake ">
+            <span class="discount">-5%</span>
+            <div class="button-group">
+              <span>
+                <i class="fa-regular fa-eye"></i>  
+              </span>
+              <span>
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-code-compare"></i>
+              </span>
+            </div>
+          </div>
+          <div class="content-card-product">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              
+            </div>
+            <h3>Cupcakes </h3>
+            <span class="add-cart">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </span>
+            <p class="price">$25 <span>$30</span></p>
+          </div>
+         </div>
+          <!-------------------- producto 2 --------------------->
+          <div class="card-product">
+            <div class="container-img">
+              <img src="imagenes/mal4.jpeg" alt=" Malteadas ">
+              <span class="discount">-10%</span>
+              <div class="button-group">
+                <span>
+                  <i class="fa-regular fa-eye"></i>  
+                </span>
+                <span>
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-code-compare"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Malteadas </h3>
+              <span class="add-cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </span>
+              <p class="price">$39 <span>$49</span></p>
+            </div>
+           </div>
+         <!---------------------- producto 3 --------------------->
+         <div class="card-product">
+          <div class="container-img">
+            <img src="imagenes/pastel.jpeg" alt="Pastel 3 leches">
+            <span class="discount">-5%</span>
+            <div class="button-group">
+              <span>
+                <i class="fa-regular fa-eye"></i>  
+              </span>
+              <span>
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-code-compare"></i>
+              </span>
+            </div>
+          </div>
+          <div class="content-card-product">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3>Pastel de tres leches </h3>
+            <span class="add-cart">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </span>
+            <p class="price">$460 <span>$480</span></p>
+          </div>
+         </div>
+         <!-----------------------producto 4 -------------------->
+         <div class="card-product">
+          <div class="container-img">
+            <img src="imagenes/donas.jpeg" alt="Donas ">
+            <span class="discount">-5%</span>
+            <div class="button-group">
+              <span>
+                <i class="fa-regular fa-eye"></i>  
+              </span>
+              <span>
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-code-compare"></i>
+              </span>
+            </div>
+          </div>
+          <div class="content-card-product">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h3>Donas </h3>
+            <span class="add-cart">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </span>
+            <p class="price"> $20 </p>
+          </div>
+         </div>
+       </div>
+    </section>
+
+    <section class="container blogs">
+      <h1 class="heading-1"> Ultimos Blogs</h1>
+      <div class="container-blogs">
+        <div class="card-blog">
+          <div class="container-img">
+            <img src="imagenes/blog1.jpeg" alt="Imagen blog 1">
+            <div class="button-group-blog">
+              <span>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-link"></i>
+              </span>
+            </div>
+          </div>
+          <div class="content-blog">
+            <h3>Cupcake de Chocolate</h3>
+            <span>27 Abril 2024</span>
+            <p>
+              Delicioso y suave pastelito de miga fina con un toque 
+              de dulzor a chocolate, es ideal para decorar con 
+              crema batida y/o fondant
+            </p>
+            <div class="btn-read-more">       </div>
+          </div>
+        </div>
+
+        <div class="card-blog">
+          <div class="container-img">
+            <img src="imagenes/blog2.jpeg" alt="Imagen blog 2">
+            <div class="button-group-blog">
+              <span>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-link"></i>
+              </span>
+            </div>
+          </div>
+          <div class="content-blog">
+            <h3>Malteada</h3>
+            <span>27 Abril 2024</span>
+            <p>
+              Las malteadas cremosas de chocolate hacen una bebida o 
+              postre delicioso. Puedes disfrutar de estas malteadas 
+              en un caluroso día de verano o cuando más se te antoje.
+              Lo mejor es que solo te toma un par de minutos 
+              preparar esta deliciosa malteada.
+            </p>
+            <div class="btn-read-more">      </div>
+          </div>
+        </div>
+
+        <div class="card-blog">
+          <div class="container-img">
+            <img src="imagenes/blog3.jpeg" alt="Imagen blog 3">
+            <div class="button-group-blog">
+              <span>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+              <span>
+                <i class="fa-solid fa-link"></i>
+              </span>
+            </div>
+          </div>
+          <div class="content-blog">
+            <h3>Pastel de Tres Leches</h3>
+            <span>27 Abril 2024</span>
+            <p>
+              Consiste en un bizcocho bañado con tres tipos de
+              lácteo: leche evaporada, media crema y leche 
+              condensada, que le dan su nombre.
+            </p>
+            <div class="btn-read-more">       </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   </main>
+
+   <footer class="footer">
+      <div class="container container-footer">
+        <div class="menu-footer">
+          <div class="contact-info">
+            <p class="title-footer">Informacion del contacto</p>
+            <ul>
+              <li>Direccion: Hidalgo #97</li>
+              <li>Colonia centro</li>
+              <li>Telefono: 3441042795</li>
+              <li>Email: cupcakesmarisol@gmail.com</li>
+            </ul>
+            <div class="social-icons">
+              <span class="facebook"><i class="fa-brands fa-facebook-f"></i></span>
+              <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+              <span class="messenger"><i class="fa-brands fa-facebook-messenger"></i> </span>
+              <span class="instagram"><i class="fa-brands fa-instagram"></i></span>
+              <span class="youtube"><i class="fa-brands fa-youtube"></i></span>
+            </div>
+          </div>
+          <div class="information">
+            <p class="title-footer">Informacion</p>
+            <ul>
+              <li><a href="#">Acerca de nosotros</a></li>
+              <li><a href="#">Informacion </a></li>
+              <li><a href="#">politicas de privacidad</a></li>
+              <li><a href="#">Terminos y condiciones </a></li>
+              <li><a href="#">Contactenos</a></li>
+            </ul>
+          </div>
+          <div class="my-account">
+            <p class="title-footer">Mi cuenta</p>
+
+            <ul>
+              <li><a href="" hrf="#">Mi cuenta</a></li>
+              <li><a href="" hrf="#">Historial de ordenes</a></li>
+              <li><a href="" hrf="#">Lista de deseos</a></li>
+              <li><a href="" hrf="#">Bolentin</a></li>
+              <li><a href="" hrf="#">Reembolsos</a></li>
+            </ul>
+          </div>
+          <div class="social-icons">
+            <span class="facebook"><i class="fa-brands fa-facebook-f"></i></span>
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+            <span class="messenger"><i class="fa-brands fa-facebook-messenger"></i> </span>
+            <span class="instagram"><i class="fa-brands fa-instagram"></i></span>
+            <span class="youtube"><i class="fa-brands fa-youtube"></i></span>
+          </div>
+        
+        <div class="copyright">
+          <p>
+            Desarrollado por Marina Ruiz Tejeda &copy; 2024
+          </p>
+          <img src="" alt="">
+        </div>
+      </div>
+   </footer>
+
+
+
+        <script 
+        src="https://kit.fontawesome.com/a0d6369e65.js" crossorigin="anonymous">
+        </script>
+       
+</body>
+</html>

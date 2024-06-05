@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+   <link rel="stylesheet" href="main.js">
+    
+</head>
+<body>
+    
+    <div class="login">
+        <form action="" id="loginForm" onsubmit="return validateForm()" >
+            <h1>Login</h1>
+            <div class="cuadro-entrada">
+                <input type="text" placeholder="Username" id="username" name="username" required>
+                <i class="fa-solid fa-user"></i>
+                <span class="error" id="usernameError"></span>
+            </div>
+            <div class="cuadro-entrada">
+                <input type="password" placeholder="Password"  id="password" name="password" required>
+                <i class="fa-solid fa-lock"></i>
+                <span class="error" id="passwordError"></span>
+            </div>
+            <div class="recordatorio">
+                <label> <input type="checkbox"> Recuerdame</label>
+                <a href="#">Cual es mi contraseña?</a>
+            </div>
+
+            <button type="submit" class="btn" > <a href="index.html", style="color: #333;">Login</a>.</button>
+            <div class="enlace-registro">
+                <p>No tienes una cuenta? <a href="#"> Registrate</a></p>
+            </div>       
+        </form>
+    
+    </div>
+
+    <script>
+        function validateForm() {
+            var username = document.getElementById("Username").value;
+            var password = document.getElementById("Password").value;
+            var valid = true;
+
+            // Clear previous errors
+            document.getElementById("UsernameError").innerText = "";
+            document.getElementById("PasswordError").innerText = "";
+
+            if (username === "") {
+                document.getElementById("UsernameError").innerText = "El nombre de usuario es obligatorio.";
+                valid = false;
+            }
+
+            if (password === "") {
+                document.getElementById("PasswordError").innerText = "La contraseña es obligatoria.";
+                valid = false;
+            }
+
+            return valid;
+        }
+    </script>
+    <script 
+
+
+        src="https://kit.fontawesome.com/a0d6369e65.js" crossorigin="anonymous">
+    </script>
+</body>
+</html>
