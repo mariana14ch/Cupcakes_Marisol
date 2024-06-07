@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estylo.css">
+    <link rel="stylesheet" href="style.css">  
+    <script src="car.js" async></script>
+    
+    <title>Reposteria Marisol </title>
+</head>
+<body>
+    <header>
+      
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <img src="imagenes/menu.png" alt="Menu">
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cupcakes.html">Cupcakes</a></li>
+                    <li><a href="pasteles.html">Pasteles</a></li>
+                    <li><a href="malteadas.html">Malteadas</a></li>
+                    <li><a href="donas.html">Donas</a></li>
+                    <li><a href="https://www.marialunarillos.com/blog/">Blog</a></li>
+                </ul>
+         
+            </nav>
+        </div>
+
+    </header>
+    <section class="container">
+        <!-- Contenedor de elementos -->
+        <div class="container-items">
+        
+            <div class="carrito-item">
+                <span class="titulo-item">Cupcake</span>
+                <img src="imagenes/cake3.jpeg" alt="" class="img-item">
+                <span class="precio-item">$35</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="carrito-item">
+                <span class="titulo-item">Dona</span>
+                <img src="imagenes/Catg_donas.jpeg" alt="" class="img-item">
+                <span class="precio-item">$25</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="carrito-item">
+                <span class="titulo-item">Malteada</span>
+                <img src="imagenes/mal1.3.jpg" alt="" class="img-item">
+                <span class="precio-item">$38</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="carrito-item">
+                <span class="titulo-item">Pastel</span>
+                <img src="imagenes/pas1.jpg" alt="" class="img-item">
+                <span class="precio-item">$370</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="carrito-item">
+                <span class="titulo-item">Dona de Vainalla</span>
+                <img src="imagenes/don1.9vainilla.jpg" alt="" class="img-item">
+                <span class="precio-item">$25</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="carrito-item">
+                <span class="titulo-item">Malteada</span>
+                <img src="imagenes/mal1.5.jpg" alt="" class="img-item">
+                <span class="precio-item">$38</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="carrito-item">
+                <span class="titulo-item">Pastel</span>
+                <img src="imagenes/pas8.jpg" alt="" class="img-item">
+                <span class="precio-item">$400</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="carrito-item">
+                <span class="titulo-item">Dona Veganas</span>
+                <img src="imagenes/don1.4veganas.jpg" alt="" class="img-item">
+                <span class="precio-item">$25</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="carrito-item">
+                <span class="titulo-item">Malteada</span>
+                <img src="imagenes/mal1.7.jpg" alt="" class="img-item">
+                <span class="precio-item">$38</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+            <div class="carrito-items">
+                 
+                <div class="carrito-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Box Engasse</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000,00</span>
+                    </div>
+                   <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Skin Glam</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$18.000,00</span>
+                    </div>
+                   <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+     
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="contact-info">
+                <p class="title-footer">Información de contacto</p>
+                <ul>
+                    <li>Dirección: Hidalgo #97</li>
+                    <li>Colonia centro</li>
+                    <li>Teléfono: 3441042795</li>
+                    <li>Email: cupcakesmarisol@gmail.com</li>
+                </ul>
+                <div class="social-icons">
+                    <span class="facebook"><i class="fa-brands fa-facebook-f"></i></span>
+                    <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+                    <span class="messenger"><i class="fa-brands fa-facebook-messenger"></i></span>
+                    <span class="instagram"><i class="fa-brands fa-instagram"></i></span>
+                    <span class="youtube"><i class="fa-brands fa-youtube"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Desarrollado por Mariana Ruiz Tejeda &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a0d6369e65.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
